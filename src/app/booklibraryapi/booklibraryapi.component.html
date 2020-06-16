@@ -1,0 +1,40 @@
+
+
+<blockquote class="blockquote text-center">
+  <p class="mb-0"><h3>
+    <h1 class="display-1">Book Library API</h1>
+  </h3>
+
+  <form>
+    <div class="form-group">
+      <label for="bookid">Book ID</label>
+      <input type="text" class="form-control" name="bookid" id="txtbookid" placeholder="Book ID">
+    </div>
+    <!-- <div class="form-group">
+      <label for="bookname">Book Name</label>
+      <input type="text" class="form-control" id="txtbookname" placeholder="Book Name">
+    </div> -->
+    <button class="btn btn-primary">Submit</button>
+  </form>
+  
+</blockquote>
+
+
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let books of books">
+          <td>{{ books.id }}</td>
+          <td>{{ books.name }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
