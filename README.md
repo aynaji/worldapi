@@ -1,3 +1,15 @@
+
+# About
+
+This is an angular web application project that I designed to communicate with backend services using http protocols such as backend Spring Boot application. The web app uses a single page application for best response time and less data usage.
+
+•	Register and sign in form page/ About me page / API pages
+•	Connects to REST API’s using http modules
+•	Uses Observable techniques and operators
+•	HTML / Bootstrap CSS 
+
+status: Incomplete
+
 # WorldApi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
